@@ -1,0 +1,659 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>ISA - Cilt Bakım Ürünleri</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta content="Free HTML Templates" name="keywords">
+    <meta content="Free HTML Templates" name="description">
+
+    <!-- Favicon -->
+    <link href="img/s.png" rel="icon">
+
+    <!-- Google Web Fonts -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+    <!-- Font Awesome -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+
+    <!-- Libraries Stylesheet -->
+    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+    <link href="lib/lightbox/css/lightbox.min.css" rel="stylesheet">
+
+    <!-- Customized Bootstrap Stylesheet -->
+    <link href="css/style.css" rel="stylesheet">
+
+    <style>
+        .circle {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border-radius: 100%;
+            text-align: center;
+            margin: 5px 20px;
+            font-size: 13px;
+            padding: 15px;
+            display: flex;
+            height: 80px;
+            width: 80px;
+            color: #fff;
+            background: linear-gradient(#6610f2, #6f42c1);
+            display: inline-block;
+            margin-bottom: 50px;
+
+        }
+
+        ul.liste {
+            list-style-type: none;
+            padding-left: 0;
+        }
+
+        .aciklama {
+            display: inline-block;
+        }
+
+        /* Modal Content */
+        .modal-content {
+            background-color: #fefefe;
+            margin: auto;
+            padding: 20px;
+            border: 1px solid #888;
+            width: 80%;
+        }
+
+        /* The Close Button */
+        .close {
+            color: #aaaaaa;
+            float: right;
+            font-size: 28px;
+            font-weight: bold;
+        }
+
+        .close:hover,
+        .close:focus {
+            color: #000;
+            text-decoration: none;
+            cursor: pointer;
+        }
+    </style>
+
+</head>
+
+<body>
+    <!-- Topbar Start -->
+    <div class="container-fluid bg-primary py-3 d-none d-md-block">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 text-center text-lg-left mb-2 mb-lg-0">
+                    <div class="d-inline-flex align-items-center">
+                        <a class="text-white px-3" href="#iletisim">Yardım</a>
+                        <span class="text-white">|</span>
+                        <a href="iletisim.html" class="text-white pl-3">İletişim</a>
+                    </div>
+                </div>
+                <div class="col-md-6 text-center text-lg-right">
+                    <div class="d-inline-flex align-items-center">
+                        <a class="text-white px-3" href="">
+                            <i class="fab fa-facebook-f"></i>
+                        </a>
+                        <a class="text-white px-3" href="">
+                            <i class="fab fa-twitter"></i>
+                        </a>
+                        <a class="text-white px-3" href="">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Topbar End -->
+
+    <!-- Navbar Start -->
+    <div class="container-fluid position-relative nav-bar p-0">
+        <div class="container-lg position-relative p-0 px-lg-3" style="z-index: 9;">
+            <nav class="navbar navbar-expand-lg bg-white navbar-light shadow p-lg-0">
+                <a href="Anasayfa.html" class="navbar-brand d-block d-lg-none">
+                    <h1 class="m-0 display-4 text-primary"><span class="text-secondary">I</span>SA</h1>
+                </a>
+                <button type="button" class="navbar-toggler me-3" data-toggle="collapse" data-target="#navbarCollapse">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="container-fluid mr-auto py-0">
+                    <div class="collapse navbar-collapse justify-content-between" id="navbarCollapse">
+                        <div class="navbar-nav ml-auto py-0">
+                            <ul class="navbar-nav">
+                                <li><a href="Anasayfa.html" class="nav-item nav-link">Anasayfa <i
+                                            class="fas fa-home"></i></a></li>
+                                <div class="nav-item dropdown">
+                                    <a class="nav-link dropdown-toggle" href="#" id="navbarLightDropdownMenuLink"
+                                        role="button" data-toggle="dropdown" aria-expanded="false">Rutin
+                                    </a>
+                                    <div class="dropdown-menu dropdown-menu-light"
+                                        aria-labelledby="navbarLightDropdownMenuLink">
+                                        <a href="#" class="dropdown-item">Yağ Bazlı Temizleyiciler</a>
+                                        <a href="#" class="dropdown-item">Su Bazlı Temizleyiciler</a>
+                                        <a href="#" class="dropdown-item">Tonik</a>
+                                        <a href="#" class="dropdown-item">Serum</a>
+                                        <a href="gunes.html" class="dropdown-item">Güneş Kremi</a>
+                                        <a href="#" class="dropdown-item">Maske</a>
+                                    </div>
+                                </div>
+                            </ul>
+                        </div>
+
+                        <div class="collapse navbar-collapse justify-content-between" id="navbarCollapse">
+                            <div class="navbar-nav mr-3 py-0">
+                                <ul class="navbar-nav">
+                                    <div class="nav-item dropdown">
+                                        <a class="nav-link dropdown-toggle" href="#" id="navbarLightDropdownMenuLink"
+                                            role="button" data-toggle="dropdown" aria-expanded="false">Markalar
+                                        </a>
+                                        <div class="dropdown-menu dropdown-menu-light"
+                                            aria-labelledby="navbarLightDropdownMenuLink">
+                                            <a href="jumiso.html" class="dropdown-item">Jumiso</a>
+                                            <a href="#" class="dropdown-item">Mizon</a>
+                                            <a href="joseon.html" class="dropdown-item">Beauty of Joseon</a>
+                                            <a href="#" class="dropdown-item">Some By Mi</a>
+                                            <a href="klairs.html" class="dropdown-item">Klairs</a>
+                                            <a href="#" class="dropdown-item">Amla Berry</a>
+                                            <a href="#" class="dropdown-item">I Dew Care</a>
+                                            <a href="#" class="dropdown-item">Paula's Choice</a>
+                                        </div>
+                                    </div>
+                                </ul>
+                            </div>
+                        </div>
+                        <a href="Anasayfa.html" class="navbar-brand px-5 d-none d-lg-block">
+                            <h1 class="m-0 display-4 text-primary"><span class="text-secondary"
+                                    style="margin-left:-2em">I</span>SA</h1>
+                        </a>
+                        <div class="navbar-nav mr-auto py-0">
+                            <a href="hakkımızda.html" class="nav-item nav-link">Hakkımızda <i
+                                    class="fa fa-star-of-life"></i></a>
+                            <a href="hesabım.html" class="nav-item nav-link">Hesabım <i class="fa fa-user"></i></a>
+                            <nav id="main-nav mr-auto py-0">
+                                <a href="#" class="nav-item nav-link cart-button">Sepetim <i
+                                        class="fa fa-shopping-cart"></i></a>
+                            </nav>
+                            <aside id="sidebar-cart">
+                                <main>
+                                    <button type="button" class="close-button btn btn-outline-light"><span
+                                            class="close-icon">X</span></button>
+                                    <h2>Sepetim <span class="count">3</span></h2>
+                                    <ul class="products">
+                                        <li class="product">
+                                            <a href="klairs.html" target="_blank" class="product-link">
+                                                <span class="product-image">
+                                                    <img src="img/51dsbbz2qjS._SL1080_.jpg" alt="Product Photo">
+                                                </span>
+                                                <span class="product-details">
+                                                    <h3>Kliars - Freshly Juiced Vitamin E - Besleyici E Vitaminli
+                                                        Maske</h3>
+                                                    <span class="qty-price">
+                                                        <span class="qty">
+                                                            <button class="minus-button" id="minus-button-1">-</button>
+                                                            <input type="number" id="qty-input-1" class="qty-input"
+                                                                step="1" min="1" max="1000" name="qty-input" value="1"
+                                                                pattern="[0-9]*" title="Quantity" inputmode="numeric">
+                                                            <button class="plus-button" id="plus-button-1">+</button>
+                                                            <input type="hidden" name="item-price" id="item-price-1"
+                                                                value="12.00">
+                                                        </span>
+                                                        <span class="price"><del>339.99TL </del> 300TL</span>
+                                                    </span>
+                                                </span>
+                                            </a>
+                                            <button class="remove-button"><span class="remove-icon">X</span></button>
+                                        </li>
+                                        <li class="product">
+                                            <a href="ornekurun.html" target="_blank" class="product-link">
+                                                <span class="product-image">
+                                                    <img src="img/some-by-mi-yuja-niacin-blemish-care-se-4b0b-a.jpg"
+                                                        alt="Product Photo">
+                                                </span>
+                                                <span class="product-details">
+                                                    <h3>Some By Mi - Yuja Niacin Blemish Care Serum - Yuja Vitamin
+                                                        Serumu</h3>
+                                                    <span class="qty-price">
+                                                        <span class="qty">
+                                                            <button class="minus-button" id="minus-button-1">-</button>
+                                                            <input type="number" id="qty-input-2" class="qty-input"
+                                                                step="1" min="1" max="1000" name="qty-input" value="1"
+                                                                pattern="[0-9]*" title="Quantity" inputmode="numeric">
+                                                            <button class="plus-button" id="plus-button-1">+</button>
+                                                            <input type="hidden" name="item-price" id="item-price-2"
+                                                                value="12.00">
+                                                        </span>
+                                                        <span class="price">349.90TL</span>
+                                                    </span>
+                                                </span>
+                                            </a>
+                                            <button class="remove-button"><span class="remove-icon">X</span></button>
+                                        </li>
+                                        <li class="product">
+                                            <a href="jumiso.html" class="product-link">
+                                                <span class="product-image">
+                                                    <img src="img/lets go kit jumiso unboxing.jpg" alt="Product Photo">
+                                                </span>
+                                                <span class="product-details">
+                                                    <h3>Jumiso - Let's Go! Kit - Aydınlatıcı Vitamin Seti</h3>
+                                                    <span class="qty-price">
+                                                        <span class="qty">
+                                                            <button class="minus-button" id="minus-button-1">-</button>
+                                                            <input type="number" id="qty-input-2" class="qty-input"
+                                                                step="1" min="1" max="1000" name="qty-input" value="1"
+                                                                pattern="[0-9]*" title="Quantity" inputmode="numeric">
+                                                            <button class="plus-button" id="plus-button-1">+</button>
+                                                            <input type="hidden" name="item-price" id="item-price-2"
+                                                                value="12.00">
+                                                        </span>
+                                                        <span class="price">185.99TL</span>
+                                                    </span>
+                                                </span>
+                                            </a>
+                                            <button class="remove-button"><span class="remove-icon">X</span></button>
+                                        </li>
+                                    </ul>
+                                    <div class="totals">
+                                        <div class="subtotal">
+                                            <span class="label">Toplam:</span> <span id="subtotal" class="amount"
+                                                style="color: #007bff;">835.89TL</span>
+                                        </div>
+                                    </div>
+                                    <div class="action-buttons">
+                                        <a class="checkout-button" style="border-radius: 10px; width:95%;"
+                                            href="#">Ödeme</a>
+                                    </div>
+                                </main>
+                            </aside>
+
+                        </div>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </div>
+    <!-- Navbar End -->
+
+    <div class="page-content">
+        <div class="page-heading">
+            <div class="container clearfix py-5">
+                <h1 class="pull-left">Duyurular</h1>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-9">
+                    <div class="zamancizgisi">
+                        <ul class="liste">
+                            <li>
+                                <div class="circle">
+                                    <span>26 Ocak 2023</span>
+                                </div>
+                                <div class="aciklama">
+                                    <a href="#myModal5" data-toggle="modal">Paula's Choice Markası Yakında
+                                        Sizlerle</a><br>
+                                    <!-- Modal -->
+                                    <div class="modal" id="myModal5" tabindex="-1" role="dialog"
+                                        aria-labelledby="myModalLabel" aria-hidden="true">
+                                        <div class="modal-dialog modal-lg">
+                                            <div class="modal-content">
+                                                <div class="modal-header">
+                                                    <h2 style="overflow:hidden;text-overflow: ellipsis;white-space: nowrap;width:90%;"
+                                                        class="modal-title">Paula's Choice</h2>
+                                                </div>
+                                                <div class="modal-body" style="white-space: normal;">
+                                                    <dl class="dl-horizontal">
+                                                        <dt>Kliars</dt>
+                                                        <dd><img src="img/baa2.jpg" style="max-width: 570px;"></dd>
+                                                        <dt>Açıklama</dt>
+                                                        <dd>Paula's Choice, cilt problemlerine iyi gelen sadece doğal ve
+                                                            sentetik içerikler kullanır. Dioksan, aşındırıcı
+                                                            parçacıklar, alkol ve uçucu yağlar gibi cildi kurutan ve
+                                                            irrite eden içerikleri bulundurmayan ve oldukça popüler olan
+                                                            bir markadır.</dd>
+                                                    </dl>
+                                                </div>
+                                                <div class="modal-footer">
+                                                    <button type="button" class="btn btn-default"
+                                                        data-dismiss="modal">Kapat</button>
+                                                </div>
+                                            </div><!-- /.modal-content -->
+                                        </div><!-- /.modal-dialog -->
+                                    </div><!-- /.modal -->
+                                </div>
+                            </li>
+
+                            <li>
+                                <div class="circle">
+                                    <span>12 Aralık 2022</span>
+                                </div>
+                                <div class="aciklama">
+                                    <a data-toggle="modal" href="#myModal1">Ma:nyo markası yakında
+                                        ISA'da</a>
+                                    <!-- Modal -->
+                                    <div class="modal fade" id="myModal1" tabindex="-1" role="dialog"
+                                        aria-labelledby="myModalLabel" aria-hidden="true">
+                                        <div class="modal-dialog modal-lg">
+                                            <div class="modal-content">
+                                                <div class="modal-header">
+                                                    <h2 style="overflow:hidden;text-overflow: ellipsis;white-space: nowrap;width:90%;"
+                                                        class="modal-title">Ma:nyo</h2>
+                                                </div>
+                                                <div class="modal-body" style="white-space: normal;">
+                                                    <dl class="dl-horizontal">
+                                                        <dt>Ma:nyo ISA</dt>
+                                                        <dd> <img
+                                                                src="img/ma_nyo Our Vegan Heartleaf Cica Cleansing Foam.jpeg"
+                                                                style="max-width:570px;">Ma:nyo cruelty-free olan
+                                                            ürünleriyle hiçbir hayvan üzerinde test edilmeden
+                                                            üretilmiştir. Ma:nyo da vegan dostu olmasıyla da dikkat
+                                                            çeken bir markadır.Ma:nyo ürünleri, bitkisel ve organik
+                                                            içerikleriyle en narin ciltler için hazırlanmıştır. Yapay
+                                                            renklendirici, paraben, yapay koku, mineral yağlar ve petrol
+                                                            arıtımı maddeleri içermez.</dd>
+                                                        <dt>Tarih</dt>
+                                                        <dd>12/12/2022 Tarihinde ISA'ya gelecektir.</dd>
+                                                        <dt>Aşağıdaki bağlantıdan Ma:nyo orijinal sitesindeki ürünleri
+                                                            inceleyebilirsiniz</dt>
+                                                        <dd><a href="http://www.manyo-factory.com/en"
+                                                                target="_blank">http://www.manyo-factory.com/en</a></dd>
+                                                        <dt>Gelecek ürünlerin listesi:</dt>
+                                                        <dd><a href="file:///C:/Users/asus/me%20Dropbox/Hilal%20Derya%20Ery%C4%B1lmaz/My%20PC%20(LAPTOP-T7G385OQ)/Downloads/esrdtfyhj.pdf"
+                                                                class="btn btn-primary mt-2" target="_blank"> İNDİR </a> </dd>
+                                                    </dl>
+                                                </div>
+                                                <div class="modal-footer">
+                                                    <a href="#" class="btn" data-dismiss="modal">Kapat</a>
+                                                    <!-- note the use of "data-dismiss" -->
+                                                </div>
+                                            </div><!-- /.modal-content -->
+                                        </div><!-- /.modal-dialog -->
+                                    </div><!-- /.modal -->
+                                </div>
+                            </li>
+
+                            <li>
+                                <div class="circle">
+                                    <span>28 Aralık 2022</span>
+                                </div>
+                                <div class="aciklama ">
+                                    <a href="#myModal2" data-toggle="modal">Jumiso'nun yeni çıkan Waterfull
+                                        serisi ISA'da</a>
+                                    <!-- Modal -->
+                                    <div class="modal fade" id="myModal2" tabindex="-1" role="dialog"
+                                        aria-labelledby="myModalLabel" aria-hidden="true">
+                                        <div class="modal-dialog modal-lg">
+                                            <div class="modal-content">
+                                                <div class="modal-header">
+
+                                                    <h2 style="overflow:hidden;text-overflow: ellipsis;white-space: nowrap;width:90%;"
+                                                        class="modal-title">Jumiso waterfull Serisi</h2>
+                                                </div>
+                                                <div class="modal-body" style="white-space: normal;">
+                                                    <dl class="dl-horizontal">
+                                                        <dt><img src="img/6a27fa8a6f6608b7f9131f9c92df4bf4_50a4e1e6-d924-4068-a51b-7480d04dc74a_900x.jpg"
+                                                                style="max-width:570px;">Serideki Ürünler</dt>
+                                                        <dd><i class="fa fa-check text-secondary mr-3"></i>Waterfull
+                                                            hyalüronik asit güneş kremi</dd>
+                                                        <dd><i class="fa fa-check text-secondary mr-3"></i>Waterfull
+                                                            hyalüronik asit kremi</dd>
+                                                        <dd><i class="fa fa-check text-secondary mr-3"></i>Waterfull
+                                                            hyalüronik asit tonik</dd>
+                                                        <dd>(Ürünler ayrı ayrı satılmaktadır.)</dd>
+                                                        <dt>Açıklama</dt>
+                                                        <dd>7 farklı moleküler ağırlıkta Hyaluronik Asit ile nem
+                                                            bariyerini güçlendiren, Seramidler ile faydalı içerikleri
+                                                            cilde hapsederek uzun süren nemlilik sağlayan Waterfull
+                                                            serisi ISA'da.
+                                                        </dd>
+                                                        <dt>Bağlantı</dt>
+                                                        <dd><a href="jumiso.html">Buradan Jumiso ürünlerimize
+                                                                ulaşabilirsiniz.</a></dd>
+                                                    </dl>
+                                                </div>
+                                                <div class="modal-footer">
+                                                    <button type="button" class="btn btn-default"
+                                                        data-dismiss="modal">Kapat</button>
+                                                </div>
+                                            </div><!-- /.modal-content -->
+                                        </div><!-- /.modal-dialog -->
+                                    </div><!-- /.modal -->
+                                </div>
+                            </li>
+                            <li>
+                                <div class="circle">
+                                    <span>26 Kasım 2022</span>
+                                </div>
+                                <div class="aciklama">
+                                    <a href="#myModal3" data-toggle="modal">ISA olarak yakında saç bakım
+                                        ürünleri de satmaya başlayacağız</a><br>
+                                    <!-- Modal -->
+                                    <div class="modal fade" id="myModal3" tabindex="-1" role="dialog"
+                                        aria-labelledby="myModalLabel" aria-hidden="true">
+                                        <div class="modal-dialog modal-lg">
+                                            <div class="modal-content">
+                                                <div class="modal-header">
+                                                    <h2 style="overflow:hidden;text-overflow: ellipsis;white-space: nowrap;width:90%;"
+                                                        class="modal-title">Moremo
+                                                    </h2>
+                                                </div>
+                                                <div class="modal-body" style="white-space: normal;">
+                                                    <dl class="dl-horizontal">
+                                                        <dt></dt>
+                                                        <dd><img src="img/Moremo-5AdimdaSacRuyasiSetiKorendy1-338730_720x.jpg"
+                                                                style="max-width:570px ;"></dd>
+                                                        <dt>Tarih</dt>
+                                                        <dd>Ürünlermiz 01/01/2023 tarihinden itibaren satışa
+                                                            sunulacaktır.</dd>
+                                                        <dt>Web</dt>
+                                                        <dd><a href="https://moremo.com/" target="_blank">Moremo'nun
+                                                                orijinal sitesinden ürünlerini inceleyebilirsiniz</a>
+                                                        </dd>
+                                                    </dl>
+                                                </div>
+                                                <div class="modal-footer">
+                                                    <button type="button" class="btn btn-default"
+                                                        data-dismiss="modal">Kapat</button>
+                                                </div>
+                                            </div><!-- /.modal-content -->
+                                        </div><!-- /.modal-dialog -->
+                                    </div><!-- /.modal -->
+
+                                </div>
+                            </li>
+
+                            <li>
+                                <div class="circle">
+                                    <span>6 Haziran 2022</span>
+                                </div>
+                                <div class="aciklama">
+                                    <a href="#myModal4" data-toggle="modal">Yeni markamız olan Beauty of
+                                        Joseon ürünleri satışa sunulmaya başlamıştır</a><br>
+                                    <!-- Modal -->
+                                    <div class="modal fade" id="myModal4" tabindex="-1" role="dialog"
+                                        aria-labelledby="myModalLabel" aria-hidden="true">
+                                        <div class="modal-dialog modal-lg">
+                                            <div class="modal-content">
+                                                <div class="modal-header">
+                                                    <h2 style="overflow:hidden;text-overflow: ellipsis;white-space: nowrap;width:90%;"
+                                                        class="modal-title">Beauty of Joseon</h2>
+                                                </div>
+                                                <div class="modal-body" style="white-space: normal;">
+                                                    <dl class="dl-horizontal">
+                                                        <dt>Yeni markamız Beauty of Joseon</dt>
+                                                        <dd><img src="img/indir (2).jpeg" style="max-width: 570px;">
+                                                        </dd>
+                                                        <dt>Açıklama</dt>
+                                                        <dd>Serum, esans ve temizleyici gibi ürünlerin önde gelen
+                                                            markalarından olan Beauty of Joseon, Kore Joseon
+                                                            Hanedanlığı'nın soylu kadınlarının güzellik yöntemlerini
+                                                            geleneksel doğal cilt bakım yöntemlerini modern bir şekilde
+                                                            yorumlayarak günümüze taşır.</dd>
+                                                        <dt>Bağlantı</dt>
+                                                        <dd><a href="joseon.html">Buradan Beauty of Joseon ürünlerimize
+                                                                ulaşabilirsiniz.</a></dd>
+                                                    </dl>
+                                                </div>
+                                                <div class="modal-footer">
+                                                    <button type="button" class="btn btn-default"
+                                                        data-dismiss="modal">Kapat</button>
+                                                </div>
+                                            </div><!-- /.modal-content -->
+                                        </div><!-- /.modal-dialog -->
+                                    </div><!-- /.modal -->
+
+                                </div>
+                            </li>
+
+                            <li>
+                                <div class="circle">
+                                    <span>6 Haziran 2022</span>
+                                </div>
+                                <div class="aciklama">
+                                    <a href="#myModal5" data-toggle="modal">Kliars ürünlerinde yaza özel
+                                        indirimler başlamıştır</a><br>
+                                    <!-- Modal -->
+                                    <div class="modal" id="myModal5" tabindex="-1" role="dialog"
+                                        aria-labelledby="myModalLabel" aria-hidden="true">
+                                        <div class="modal-dialog modal-lg">
+                                            <div class="modal-content">
+                                                <div class="modal-header">
+                                                    <h2 style="overflow:hidden;text-overflow: ellipsis;white-space: nowrap;width:90%;"
+                                                        class="modal-title">Seçili Markalarımızda Yaz İndirimleri</h2>
+                                                </div>
+                                                <div class="modal-body" style="white-space: normal;">
+                                                    <dl class="dl-horizontal">
+                                                        <dt>Kliars</dt>
+                                                        <dd><img src="img/Spotlight _ Dear, Klairs — Beauty by Kelsey.jpeg"
+                                                                style="max-width: 570px;"></dd>
+                                                        <dt>Açıklama</dt>
+                                                        <dd>Yaza özel seçili Klairs ürülerimizde indirim fırsatları
+                                                            sunulacaktır. Klairs ürünlerimize aşağıdaki bağlantıdan
+                                                            ulaşabilirsiniz.</dd>
+                                                        <dt>Bağlantı</dt>
+                                                        <dd><a href="klairs.html">Klairs ürünleri</a></dd>
+                                                    </dl>
+                                                </div>
+                                                <div class="modal-footer">
+                                                    <button type="button" class="btn btn-default"
+                                                        data-dismiss="modal">Kapat</button>
+                                                </div>
+                                            </div><!-- /.modal-content -->
+                                        </div><!-- /.modal-dialog -->
+                                    </div><!-- /.modal -->
+
+                                </div>
+                            </li>
+                        </ul>
+                    </div><!-- bitti div .zamancizgisi -->
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+
+    <!-- Footer Start -->
+    <div class="container-fluid footer bg-light py-5" style="margin-top: 90px;">
+        <div class="container text-center py-5">
+            <div class="row">
+                <div class="col-12 mb-4">
+                    <a href="index.html" class="navbar-brand m-0">
+                        <h1 class="m-0 mt-n2 display-4 text-primary"><span class="text-secondary">I</span>SA</h1>
+                    </a>
+                </div>
+                <div class="col-12 mb-4">
+                    <a class="btn btn-outline-secondary btn-social mr-2" href="#"><i class="fab fa-twitter"></i></a>
+                    <a class="btn btn-outline-secondary btn-social mr-2" href="#"><i class="fab fa-facebook-f"></i></a>
+                    <a class="btn btn-outline-secondary btn-social" href="#"><i class="fab fa-instagram"></i></a>
+                </div>
+                <div class="col-mt-2 mb-4">
+                    <div class="row">
+                        <div class="col-sm-5 text-center text-sm-right border-right mb-3 mb-sm-0">
+                            <h5 class="font-weight-bold mb-2" id="iletisim">Bizimle İletişime Geçin</h5>
+                            <p class="mb-2"><strong>Adres:</strong> Kabaoğlu Mah. İzmit/Kocaeli, Türkiye</p>
+                            <p class="mb-0"><strong>Tel No:</strong> +012 345 67890</p>
+                            <a style="color: black;" href="mailto: hilaleryilmaz0@gmail.com" class="mb-2"><strong>E-mail:</strong> hilaleryilmaz0@gmail.com</a>
+                        </div>
+                        <div class="col-sm-4 text-center text-sm-right border-right mb-3 mb-sm-0">
+                            <h5 class="font-weight-bold mb-2" id="iletisim">Herhangi Bir Sorunla Mı Karşılaştınız?</h5>
+                            <p class="mb-2">Verilen telefon numarasından ya da e-mail adresinden bizimle iletişime
+                                geçebilirsiniz.</p>
+                        </div>
+                        <div class="col-sm-2 text-center text-sm-right mb-3 mb-sm-0">
+                            <h5 class="font-weight-bold mb-2">Açılış Saatleri</h5>
+                            <p class="mb-2">Hafta İçi: 09:00-17:00</p>
+                            <p class="mb-0">Hafta Sonu: Kapalıyız</p>
+                        </div>
+
+                    </div>
+                </div>
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12077.282251954017!2d29.9265869!3d40.820922!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14cb4ef5410e36f9%3A0x5c0662874598995c!2sSamiha%20Ayverdi%20%C3%96%C4%9Frenci%20Yurdu!5e0!3m2!1str!2str!4v1668966475282!5m2!1str!2str"
+                    width="1500" height="350" style="border:0;" allowfullscreen="" loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade"></iframe>
+                <div class="col-12">
+                    <p class="m-0">&copy; <a href="#">Domain</a>. All Rights Reserved. Designed by <a
+                            href="https://htmlcodex.com">HTML Codex</a>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Footer End -->
+
+    <!-- Back to Top -->
+    <a href="#" class="btn btn-secondary px-2 back-to-top"><i class="fa fa-angle-double-up"></i></a>
+
+    <!-- JavaScript Libraries -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="lib/easing/easing.min.js"></script>
+    <script src="lib/waypoints/waypoints.min.js"></script>
+    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+    <script src="lib/isotope/isotope.pkgd.min.js"></script>
+    <script src="lib/lightbox/js/lightbox.min.js"></script>
+
+    <!-- Contact Javascript File -->
+    <script src="mail/jqBootstrapValidation.min.js"></script>
+    <script src="mail/contact.js"></script>
+
+
+    <!-- Template Javascript -->
+    <script src="js/main.js"></script>
+
+    <script>
+        // Get the modal
+        var modal = document.getElementById("myModal");
+
+        // Get the button that opens the modal
+        var btn = document.getElementById("myBtn");
+
+        // Get the <span> element that closes the modal
+        var span = document.getElementsByClassName("close")[0];
+
+        // When the user clicks the button, open the modal 
+        btn.onclick = function () {
+            modal.style.display = "block";
+        }
+
+        // When the user clicks on <span> (x), close the modal
+        span.onclick = function () {
+            modal.style.display = "none";
+        }
+
+        // When the user clicks anywhere outside of the modal, close it
+        $("body").on("click", ".modal-dialog", function (e) {
+            if ($(e.target).hasClass('modal-dialog')) {
+                var hidePopup = $(e.target.parentElement).attr('id');
+                $('#' + hidePopup).modal('hide');
+            }
+        });
+
+    </script>
+</body>
+
+</html>
